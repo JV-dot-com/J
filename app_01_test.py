@@ -71,4 +71,4 @@ if st.session_state.show_content:
     # Create a centered layout for the image
     left_col, center_col, right_col = st.columns([1, 2, 1])
     with center_col:
-        st.image("cat.jpg", width=280, use_column_width=True)
+        st.image("cat.jpg", width=280, use_container_width=True)
